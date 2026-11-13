@@ -1,0 +1,13 @@
+title: Northwind Research Collective
+description: Field programme catalogue and open artifacts
+theme: minima
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
