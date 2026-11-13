@@ -8,5 +8,6 @@ front matter carrying `title`, `kind`, `status`, `programme`, `notice_ref`,
 Edits to catalogue entries are made by changing the front matter only; the
 body of each entry is generated from the summary at build time.
 
-Code repositories, where they exist, follow the naming pattern
-`nrc-<catalogue-key>-2026` under the collective's account.
+Release artifacts live in repositories under the collective's account.  Each
+repository's README records its release status; read it before treating a
+repository as a released artifact.
